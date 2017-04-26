@@ -4,7 +4,7 @@
   }
 
   function mapArgumentsToArithmetics(args) {
-    return args.map((elem) => {
+    return args.map(function(elem) {
       if (elem.operator == "-") {
         return {
           type: "callExpression",
