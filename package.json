@@ -1,6 +1,6 @@
 {
   "name": "formulon-propel",
-  "version": "2.3.8",
+  "version": "2.3.9",
   "description": "Salesforce Formula Parser",
   "main": "lib/formulon.js",
   "scripts": {

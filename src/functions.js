@@ -161,7 +161,7 @@ export const sf$ispickval = (pick, text) => {
 }
 
 export const sf$isblank = (text) => {
-  return buildLiteralFromJs(!!text.value)
+  return buildLiteralFromJs(!text.value)
 }
 
 export const sf$left = (text, numChars) => {
